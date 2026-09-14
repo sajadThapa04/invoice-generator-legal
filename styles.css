@@ -76,15 +76,13 @@ header {
 }
 
 .mark {
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
-  background: var(--accent);
-  color: white;
-  display: grid;
-  place-items: center;
-  font-size: 14px;
-  font-weight: 800;
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+  background: #d9f5d0;
 }
 
 nav {
