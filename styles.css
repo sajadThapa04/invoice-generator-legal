@@ -313,6 +313,11 @@ h1 {
   font-weight: 600;
 }
 
+.support-note br + a {
+  display: inline-block;
+  margin-top: 8px;
+}
+
 footer {
   margin-top: 56px;
   padding-top: 22px;
